@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+body
+{
+	background: #F0F0F0;
+	text-align: center;
+	margin: 0px;
+	cursor: default;
+	color: #845BA1;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+}
+p,
+ul
+{
+	margin: 5px 0;
+}
+button
+{
+	cursor: pointer;
+	background: #FFFFFF;
+	border: 1px solid #AAAAAA;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	padding: 5px;
+	outline: none;
+}
+button:hover
+{
+	border: 1px solid #845BA1;
+}
+button:active
+{
+	
+	border: 1px solid #845BA1;
+	outline: 1px solid #845BA1;
+}
+.title
+{
+	background: #845BA1;
+	font-size: 16px;
+	line-height: 150%;
+	padding: 5px;
+	color: #FFFFFF;
+	border-bottom: 1px solid #845BA1;
+}
+.content
+{
+	padding: 10px;
+}
+.bubbles
+{
+	padding: 5px;
+}
+.bubble-item
+{
+	display: none;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 100px;
+	overflow: hidden;
+	padding: 5px;
+	background: #FFFFFF;
+}
+.bubble-item--top
+{
+	color: #FFFFFF;
+	background: #22B573;
+}
+.bubble-item--bottom
+{
+	/*color: #FFFFFF;
+	background: #E57368;*/
+}
+button.sort
+{
+	display: none;
+}
+.speed
+{
+	display: none;
+}
+.banner
+{
+	text-align: left;
+	margin: 10px;
+	background: none repeat scroll 0% 0% #FDF7DF;
+	padding: 10px;
+}
